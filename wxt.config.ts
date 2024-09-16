@@ -8,6 +8,5 @@ export default defineConfig({
     default_locale: "en",
     name: "__MSG_name__",
     description: "__MSG_desc__",
-    permissions: ["tabs"],
   },
 });
