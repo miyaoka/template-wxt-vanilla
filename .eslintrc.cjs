@@ -10,8 +10,6 @@ module.exports = {
   },
   plugins: ["@typescript-eslint", "import", "unused-imports"],
   rules: {
-    "no-console": "warn",
-
     // unused-imports
     "@typescript-eslint/no-unused-vars": "off",
     "unused-imports/no-unused-imports": "warn",
