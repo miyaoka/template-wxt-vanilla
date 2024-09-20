@@ -1,14 +1,14 @@
 /* eslint-env node */
-require("@rushstack/eslint-patch/modern-module-resolution");
 
 module.exports = {
   root: true,
-  extends: ["eslint:recommended"],
+  extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"],
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["import", "unused-imports"],
+  plugins: ["@typescript-eslint", "import", "unused-imports"],
   rules: {
     "no-console": "warn",
 
